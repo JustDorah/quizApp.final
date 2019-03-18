@@ -8,7 +8,7 @@ const test = [
         'accidents'
       ],
       correctAnswer:'prevention',
-      icon: 'images.labsafety1.jpg',
+      icon: 'images/labsafety1.jpg',
       alt: 'image of laboratory safety',
       correctAnswerFeedback:'Laboratories are much more hazardous than the general workplace. So it is absolutely important that as we look for cures and technological breakthroughs, we should understand and know how to deal with each and every hazard within our laboratory and practice effective prevention.'
     },
@@ -21,7 +21,7 @@ const test = [
         'Lab Coats'
       ],
       correctAnswer: 'Everything mentioned',
-      icon: 'images.labsafety2.png',
+      icon: 'images/labsafety2.png',
       alt: 'safety glasses, lab coats, shoes, and gloves are part of ones personal protective equipment',
       correctAnswerFeedback:'Personal protective equipment, commonly referred to as <strong> PPE </strong>, is equipment worn to minimize exposure to hazards that cause serious workplace injuries and illnesses. Examples of lab PPE include safety goggles, gloves, shoes, and a lab coat. It is important to note that in the hierarchy of hazard controls, PPE ranks last. Correct use of PPE is important for the safety of lab personnel, but it should not be the <strong><em>only</em></strong> safety mechanism used to protect laboratory personnel.'
     },
@@ -34,12 +34,12 @@ const test = [
         'working alone'
       ],
       correctAnswer:'Wear appropriate clothing and tie back long hair',
-      icon: 'images.tiebackhair.png',
+      icon: 'images/tiebackhair.png',
       alt: 'woman tying back hair',
       correctAnswerFeedback:'As mentioned, lab safety, while not sexy, should be a top priority for any laboratory. Lab managers must develop effective training programs, best-practices, and safety audits to minimize risk.'
     },
     {
-      question: 'The sign below indicates what type of safety hazard? <br/> <img class="questionImg" src="images.biohazardSign3.png" alt="a safety hazard sign">',
+      question: 'The sign below indicates what type of safety hazard? <br/> <img class="questionImg" src="images/biohazardSign3.png" alt="a safety hazard sign">',
       answers:[
         'Oxidizing hazard',
         'Biohazard',
@@ -47,7 +47,7 @@ const test = [
         'Acute toxicity hazard'
       ],
       correctAnswer:'Biohazard',
-      icon: 'images.biohazardSign3.png',
+      icon: 'images/biohazardSign3.png',
       alt: 'a safety hazard sign',
       correctAnswerFeedback:'Biohazard or biological hazard is a biological substance that poses a threat to the health of human beings and other living organisms. The symbol was developed by Charles Baldwin, and environmental-health engineer for the Dow Chemical Company, in 1966. The four circles within the symbol represent the chain of infections:<br/> <br/><strong>Agent:</strong> the type of microorganism that causes infection or hazardous condition. <br/><strong>Host:</strong> The organism in which the microorganism Infect. The new host must be susceptible.<br/><strong>Source:</strong> The host from which the microorganism originate. The carrier host might not show symptoms.<br/><strong>Transmission:</strong> The means of transmission, mostly direct or indirect. Some routes of transmission include air, insect, direct contact and contaminated surfaces.'
     },
@@ -60,7 +60,7 @@ const test = [
         'all of the above'
       ],
       correctAnswer:'all of the above',
-      icon: 'images.attention.jpg',
+      icon: 'images/attention.jpg',
       alt: 'man writing on blackboard after explosion \"I will not mix chemicals unless I know what they are\"',
       correctAnswerFeedback:'Having a working understanding of the type of chemical, biological, and electrical hazards you work with; along with the risks that come with working with or besides them is one of the best ways to prevent lab accidents from occuring in the first place.'
     },
@@ -73,7 +73,7 @@ const test = [
         'The MAN'
       ],
       correctAnswer:'Humans',
-      icon: 'images.humanbeing.png',
+      icon: 'images/humanbeing.png',
       alt: 'circle made of people holding hands',
       correctAnswerFeedback:'Human error is one of the main reasons accidents happen in the lab. And while this is true, it is very important to- <strong>one</strong> understand that most people want to do a good job and that <strong>two</strong> when we look deeper, most human errors are due to system failures.<br/>When we consider how humans play a part in causing accidents, it’s important to know the difference between active and latent errors. <strong>Active errors</strong> are pretty apparent, and happen at the point of contact between a human and an aspect of a larger system. <strong>Latent errors</strong> are less apparent and are failure of the organization or a design that contribute to the occurrence of error or accidents, in our particular case. Or in other words:<br/><br/><em>“The <strong>active</strong> error is that the pilot crashed the plane. The <strong>latent</strong> error is that a previously undiscovered design malfunction caused the plane to roll unexpectedly in a way the pilot could not control and the plane crashed.”</em> <br/><br/>In order to prevent future accidents, it is important to gain a full understanding of why they happen so that steps can be taken to circumvent them.'
     },
@@ -100,7 +100,7 @@ const test = [
         
       ],
       correctAnswer:'Pull, Aim, Squeeze, Sweep',
-      icon: 'images.pass.jpg',
+      icon: 'images/pass.jpg',
       alt: 'fire extinguishing procedure: P.A.S.S.',
       correctAnswerFeedback:'And before P.A.S.S there is <strong>R.A.C.E.</strong> An acronym to help personnel remember the correct order of response to a fire emergency.<br/> <strong>RESCUE:</strong> remove anyone in danger <br/><strong>ALARM:</strong> activate the nearest fire alarm <br/><strong>CONTAIN:</strong> confine the fire by closing the surrounding windows and doors <br/><strong>EXTINGUISH or EVACUATE:</strong> if the fire is small, you are properly trained, and you can extinguish it safely, use an extinguisher. If you are not trained in the use of the extinguisher or cannot safely extinguish the fire, evacuate'
     },
@@ -113,7 +113,7 @@ const test = [
         'all of the above'
       ],
       correctAnswer:'all of the above',
-      icon: 'images.Safety1.jpg',
+      icon: 'images/safety1.jpg',
       alt: 'safety does not come with lucky. it has to be prepared',
       correctAnswerFeedback:'We believe in prevention—identifying and eliminating hazards before employees are hurt. But even with a comprehensive injury and illness prevention program, accidents still happen. And that is why some forethought and preplanning, i.e., developing a response plan, will help immensely when crisis hits'
     },

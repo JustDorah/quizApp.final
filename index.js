@@ -162,14 +162,14 @@ function nextQuestion(){
 function finalPage(){
   if(score >= 4){
     $('.questionAnswerForm').html(`<div class="winner">
-      <img class="answerImg1" src="images.labheros.jpg.png" alt="Not all heros wear capes. Some wear lab coats. Super lab teams unite!">
+      <img class="answerImg1" src="images/labheros.jpg.png" alt="Not all heros wear capes. Some wear lab coats. Super lab teams unite!">
       <p class="finalPage">You were born to be a safety Hero!<br/> Great Job!<br/>
       </p>
     </div>
     <button role="button" type="button" class="reStartButton">Play Again</button>`);
   } else {
     $('.questionAnswerForm').html(`<div class="powers">
-      <img class="answerImg" src="images.forgetLabSafety3.png" alt="scientist mixing chemicals to get superpowers">
+      <img class="answerImg" src="images/forgetLabSafety3.png" alt="scientist mixing chemicals to get superpowers">
       <p class="finalPage">How...unexpected.<br/> It looks like you had other ideas in mind.</p>
     </div>
     <button role="button" type="button" class="reStartButton">Play Again</button>`)
