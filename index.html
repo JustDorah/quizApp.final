@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Lab Safety Quiz</title>
+    <meta name="description" content="Test your laboratory safety knowledge and see if you can make it as a scientist">
+
+    <!-- responsiveness-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Google fonts look up courgette-->
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Inline|Bungee+Shade|Creepster|Freckle+Face|Fredericka+the+Great|Lato" rel="stylesheet">
+    
+    <!--have style sheets here -->
+    <link href="responsive.css" rel="stylesheet" type="text/css" />
+    <link href="main.css" rel="stylesheet" type="text/css" />
+        
+  </head>
+<!-- -->  
+  <body>
+  <!--Header-->  
+    <header role="banner" class="externalBorder">
+      <div class="internalBorder">
+        <div class="headerLogo">
+          <a href="index.html">
+          <!--wrap img within a tag so that i can use img to return to home page or do stuff with it-->
+            <img class="logo" src="images.safetyimage4.png" alt="scientist safety mask">
+          </a>
+        </div>
+        <div class="center">
+          <h1>So You Want To Be A Scientist?</h1>
+          <h2>Laboratory Safety Version</h2>
+        </div>
+        <!--Hide the Score on the into page-->  
+        <div class="qInfo keepingScore hidden">
+          <p>Question: <span class="questionNumber">0</span> /9</p>
+          <p>Score: <span class="score"> 0</span> pts</p>
+        </div>   
+      </div>                
+   </header>
+
+  <!--Main-->  
+    <main role="main">
+      <section class="startQuiz">
+        <!--change class maybe wording too-->  
+        <div>  
+          <h3 class="point">Test out your laboratory safety knowledge to see if you can be a safety<span class="good"> hero</span></h3>
+        </div>
+        <div class="buttonCenter">
+          <button role="button" class="startButton">TEST YOUR KNOWLEDGE</button>
+        </div>  
+      </section>
+      <section class="questionAnswerForm hidden"></section>
+    </main>  
+ <!--jQuery-->    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+ <!--Local jQuery -->       
+    <script src="questions.js"></script>
+    <script src="index.js"></script>      
+  </body>
+</html>

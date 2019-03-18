@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  .externalBorder::before,
+  .externalBorder::after{
+    display: grid;
+    content: '';
+  }
+  
+  .headerLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .qInfo{
+    display: flex;
+    justify-content: space-between;
+  }
+  .startQuiz{
+    display: block;
+    width: 575px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .questionAnswerForm{
+    width: 450px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    align-content: center;
+  }
+  h3{
+    margin: 0 20px 20px;
+  }
+  .buttonCenter{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    margin: auto;
+  }
+  
+  /**Question sections**/
+  label{
+    display: flex;
+  }
+  
+  input[type=radio]{
+    flex: 0 0 auto;
+    margin-right: 8px;  
+  }
+  
+  input{/*is it doing anything?*/
+    position: relative;
+    top: 4px;
+  }
+  label input:checked{
+    position: relative;
+  }
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 500px) {
+    .externalBorder{
+      width: 100%;
+    }
+    .headerLogo{
+      margin-top: 0;
+    }
+    .logo{
+      width: 60%;   
+    }
+    h3{
+     display: block;
+     margin-left: 0;
+     margin-right: 0;
+     text-align: center;
+    } 
+    .buttonCenter{
+      width: 100%; 
+    }
+    .startQuiz, .questionAnswerForm{
+      width: 100%;
+      margin: 0;
+    }
+  } 
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 550px) {
+    .externalBorder{
+      width: 90%;
+      margin: auto;
+    }
+    .buttonCenter{
+      align-items: center;
+      width: 100%;
+    }
+  } 
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .externalBorder{
+      width: 600px;
+      margin: auto;
+    }
+    .questionAnswerForm{
+      width: 550px;
+    }
+    .logo{
+      width: 60%;
+    }
+  } 

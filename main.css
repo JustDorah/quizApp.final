@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: #141414;
+  
+  }
+  
+  /*HEADER STYLINGS*/
+  .externalBorder{
+    padding: 0 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .headerLogo{
+    filter: hue-rotate(330deg);
+  }
+  .logo{
+    display: block;
+    margin: auto;
+    filter: drop-shadow(-2px 3px 1px #73DAD9);
+  }
+  h1{
+    font-family: 'Bungee Shade', cursive;
+    color: #73DAD9;
+  }
+  .center{
+    text-align: center;
+  }
+  
+  h2{
+    font-family: 'Bungee Inline', cursive;
+    font-weight: lighter;
+    color: rgb(236, 103, 8); 
+    border-bottom: 5px solid #73DAD9;
+    letter-spacing: 1px;
+  }
+  p{
+    font-family: 'Bungee Inline', sans-serif;
+    color: #73DAD9;
+  }
+  
+  
+  /************FIRST PAGE SECTION STYLINGS************/
+  .startQuiz{
+    padding: 0 10px;
+    }
+  
+  h3{
+    color: rgb(240, 106, 12); 
+    font-family: 'Bungee', cursive;
+    font-weight: lighter;
+    letter-spacing: 0.3px;
+  }
+  .good{
+    font-family: 'Fredericka the Great', cursive;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    filter: drop-shadow(-2px 3px 10px rgba(248, 224, 4, 0.945));
+  }
+  
+  .hidden{
+    display: none;
+  }
+  
+  button{
+    font-family: 'Bungee Inline', cursive;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 3px;
+    padding: 0 9px;
+    background-color: #7CD8D8;
+    border: 2px inset rgb(240, 106, 12);
+    margin-top: 15px;
+    margin-bottom: 50px;  
+    width: 100%;
+  }
+  button:hover{
+    box-shadow: 0 0 50px rgb(240, 106, 12), inset 0 0 40px rgb(240, 106, 12);
+  }
+  
+  
+  /***************************************************/
+  /*INSERTED QUESTIONS AND ASNWER OPTION STYLINGS*/
+  
+  fieldset{
+    border: none;
+  }
+  
+  legend{
+    margin-bottom: 20px;
+  }
+  .legend{
+    font-family: 'Bungee Inline', cursive;
+    color: rgb(240, 106, 12);
+    font-size: 17px;
+    font-weight: 20px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    filter: drop-shadow(-1px 1px 10px #73DAD9);
+  }
+  .questionImg{
+    width: 50%;
+  }
+  
+  /*Styles for the answer options*/
+  label{
+    background: transparent;
+    outline: 2px solid #73DAD9;
+    border: 1px solid rgb(240, 106, 12);
+    font-family: 'Bungee', cursive;
+    font-size: 15px;
+    letter-spacing: 1.5px;  
+    padding-left: 3px;
+    color: #73DAD9;
+    cursor: pointer;
+    line-height: 25px;
+    margin-bottom: 15px;  
+     /*I'd like to align the labels with the submitButton
+    -it seems like outline doesn't follow the border-box box sizing rules.*/
+  }
+  label:hover{
+     box-shadow: 0 0 30px rgb(216, 91, 8), inset 0 0 100px rgb(240, 106, 12);
+  }
+  /*RADIO styling*/
+  label input{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    transition: all .5s ease-out;
+    outline: none;
+    border: 2px dotted #73DAD9;  
+  }
+  label input:checked:focus{
+    border: 8px solid rgb(240, 106, 12);
+    /*border-radius: 50%;  i want a filled in radio when it is checked. so i will just make the border 8px rather than use the radius to keep the circular shape*/
+    box-shadow: 0 0 3pt 2pt #7CD8D8;/*wanted an outline but couldn't outline-radious doesn't seem to be a thing. stackoverflow suggested a box shadow. love it!*/
+  }
+  
+  /*SUBMIT BUTTON Stylings*/
+  .submitButton{
+    margin-top: 5px;
+    margin-bottom: 10px;  
+    width: 100%;
+  }
+  
+  /******CORRECT OR WRONG ANSWER ICON  Stylings******/
+  
+  /*Image stylings*/
+  img{
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+  .icon img{
+  width: 70%;
+  height: auto;
+  border-radius: 8px;  /*rounded edges*/
+  margin-bottom: 20px;
+  }
+  .answerYay{
+    font-size: 20px;
+    font-family: 'Bungee Inline', cursive;
+  }
+  .answer{
+    font-family: 'Lato', sans-serif;
+    line-height: 20px;
+    word-spacing: 0.5px;
+  }
+  .correctAnswer{
+    font-family: 'Bungee Inline', cursive;
+    color: rgb(240, 106, 12);
+    letter-spacing: 1.5px;
+  }
+  .moveOn{
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  
+  .readMoreButton{
+    width: auto;
+    border: none;
+    background-color: transparent;
+    color: #7CD8D8; 
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin-bottom:0;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0;
+    font-weight: bold;
+  }
+  .readMoreButton:hover{
+  /*box shadow creates a glow outside and 'insert' inside*/
+   box-shadow: none;
+  }
+  
+  /*FINAL PAGE STYLINGS*/
+  P.finalPage{
+    font-family: 'Bungee', cursive;
+  }
+  .answerImg{
+    filter: hue-rotate(30deg) saturate(4);
+  }
+  
+   
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 500px) {
+   h1{
+      letter-spacing: 1.5px;
+      line-height: 50px;
+    }
+    .qInfo p, .questionNumber{
+      font-family: 'Lato', sans-serif;
+      text-transform: uppercase;
+    }
+    .good{
+      font-weight: bolder;
+    }
+    .legend, label{
+      font-family: 'Lato', sans-serif;
+      font-weight: bolder;
+      text-transform: uppercase;
+    }  
+  } 
+  
