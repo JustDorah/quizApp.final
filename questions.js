@@ -17,8 +17,8 @@ const test = [
       answers: [
         'Safety glasses or face Shields',
         'Gloves',
-        'Everything mentioned',
-        'Lab Coats'
+        'Lab Coats',
+        'Everything mentioned'
       ],
       correctAnswer: 'Everything mentioned',
       icon: 'images/labsafety2.png',
