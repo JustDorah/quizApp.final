@@ -86,7 +86,7 @@ const test = [
         'Continuous education on the importance of lab safety'
       ],
       correctAnswer:'Continuous education on the importance of lab safety',
-      icon: 'images.science.jpg',
+      icon: 'images/science.jpg',
       alt: 'book with various scientific knowledge',
       correctAnswerFeedback:'Complacency tends to happen over time. Its when lab personnel grow out of touch with the hazards and risks around them. They become used to doing things a particular way and grow oblivious to the ever present hazards around them.'
     },
